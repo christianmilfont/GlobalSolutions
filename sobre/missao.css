@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(10deg, rgba(0,0,0,1) 44%, rgba(0,43,135,1) 100%);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+ }
+ .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+ }
+ header {
+    text-align: left;
+    margin-bottom: 30px;
+ }
+
+ h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #ffffff;
+ }
+
+ section {
+    margin-bottom: 3%;
+ }
+ 
+ p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #dddddd;
+ }
+
+.line{
+    width: 100%; /* Define a largura da linha */
+    height: 4px; /* Define a altura da linha */
+    background-color: #2962b8; /* Define a cor da linha (preto neste caso) */
+}
+
+.line2{
+    width: 100%; /* Define a largura da linha */
+    height: 4px; /* Define a altura da linha */
+    background-color: #2962b8; /* Define a cor da linha (preto neste caso) */
+}
+
+.line3{
+    width: 100%; /* Define a largura da linha */
+    height: 4px; /* Define a altura da linha */
+    background-color: #2962b8; /* Define a cor da linha (preto neste caso) */
+}
