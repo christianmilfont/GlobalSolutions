@@ -13,14 +13,25 @@ body {
  }
  header {
     text-align: left;
-    margin-bottom: 30px;
  }
 
  h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin: 0;
+    padding: 0;
     color: #ffffff;
  }
+ .blue {
+   font-size: 3em;
+   margin: 0;
+   color: #00AEEF;
+   
+}
+.life{
+   font-size: 1em;
+   margin: 0;
+   color: #ffffff;
+}
 
  section {
     margin-bottom: 3%;
@@ -30,6 +41,9 @@ body {
     font-size: 1em;
     line-height: 1.5;
     color: #dddddd;
+ }
+ main{
+   margin: 10%;
  }
 
 .line{
@@ -49,3 +63,35 @@ body {
     height: 4px; /* Define a altura da linha */
     background-color: #2962b8; /* Define a cor da linha (preto neste caso) */
 }
+
+.textobonito:hover{
+   color: #0297ce;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 90%;
+ }
+ 
+ 
+ nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ nav ul li {
+   display: inline; 
+ }
+ 
+ nav ul li a {
+   display: block;
+   padding: 10px 20px; 
+   text-decoration: none; 
+   color: #fff; 
+ }
+ 
+ nav ul li a:hover {
+   color: #0297ce;
+ }
