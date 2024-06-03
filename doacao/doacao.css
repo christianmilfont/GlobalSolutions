@@ -1,0 +1,105 @@
+
+body {
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,155,1) 100%, ); 
+    text-align: center;
+  }
+.oceano {
+    font-size: 2em;
+    margin: 0;
+    color: #2fbcf0;
+}
+h2{
+    color: #2fbcf0;
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+
+}
+
+.beneficiary-stories {
+    flex: 1;
+    text-align: center;
+}
+
+.donation-info{
+    text-align: center;
+    color: antiquewhite;
+    padding: 5%;
+}
+
+.social-media {
+    display: fixed;
+}
+
+.social-btn {
+    align-items: center;
+    margin-right: 1%;
+    background-color: #333;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.social-btn:hover {
+    background-color: #555;
+}
+
+footer{
+    display: grid;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #0297ce;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav ul li a:hover {
+    color: #0297ce;
+  }
+  #toggleMenu {
+    border: none;
+    cursor: pointer;
+    
+  }
+ 
+  
+  img{
+    width: 4%; 
+    height: auto; 
+    position: absolute;
+    top: 0%;
+    right: 3%;
+}
+@keyframes example {
+    0% {background-color: rgb(252, 252, 252); right: 0%;  top: 20px;}
+    50% {background-color: rgb(33, 47, 71); right: 70px; top: 20px;}
+    100% {background-color: rgb(18, 0, 122); right: 0%; top: 20px;}
+}

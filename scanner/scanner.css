@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,155,1) 100%, );
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.nome{
+    font-size: 3em;
+}
+img {
+    width: 150px;
+}
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a:hover {
+    background-color: #0056b3;
+}
+.compre-agora{
+    text-decoration: none;
+    background-color:#00AEEF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.para-que{
+    text-decoration: none;
+    background-color:#ffffff;
+    color: #00AEEF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.oceano {
+    font-size: 1.em;
+    margin: 0;
+    color: #2fbcf0;
+}

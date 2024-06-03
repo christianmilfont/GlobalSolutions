@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Doação</title>
+    <link rel="stylesheet" href="doacao.css">
+</head>
+<body>
+    <header>
+        <h1>Seja um Doador e ajude o <span class="oceano">Oceano</span></h1>
+    </header>
+    <div class="container">
+        <section class="donation-form">
+            <h2>Faça Sua Doação</h2>
+            <form action="processar_doacao.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <input type="number" id="valor" name="valor" min="1" step="any" required>
+                <button type="submit" href="../pagamento/pagamento.html">Doar</button>
+            </form>
+        </section>
+        <section class="donation-info">
+            <h2>Por Que Doar?</h2>
+            <p>Sua doação faz a diferença! Ajude-nos a continuar com nossos projetos e causas importantes.</p>
+            <p>Nosso projeto de preservação do oceano é uma resposta direta a essa ameaça iminente. Trabalhamos incansavelmente para proteger e restaurar os ecossistemas marinhos afetados por derramamentos de petróleo, garantindo que nossos oceanos continuem a ser um lar seguro e saudável para a vida marinha.</p>
+        </section>
+    </div>
+
+
+
+    <footer>
+        <p>Ajude-nos a fazer a diferença!</p>
+        <div class="social-media">
+            <a href="#" class="social-btn">Compartilhar no Facebook</a>
+            <a href="#" class="social-btn">Compartilhar no Twitter</a>
+            <a href="#" class="social-btn">Compartilhar no Instagram</a>
+        </div>
+    </footer>
+    <img id="toggleMenu" src="../menu.png" alt="Imagem Menu"></img>
+
+<div>
+  <nav id="menu">
+
+      <ul>
+          <li><a href="../index/index.html">Página Inicial</a></li>
+          <li><a href="../sobre/missao.html">Sobre</a></li>
+          <li><a href="../sobre/contato.html">Contato</a></li>
+          <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
+
+        </ul>
+  </nav>
+</div>
+    <script src="doacao.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,155,1) 100%, ); 
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(3,0,50);
+    background: linear-gradient(0deg, rgb(124, 121, 163) 0%, rgb(223, 223, 226) 35%, rgba(255,255,255,1) 95%);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label,
+  input,
+  select {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pixCode {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .pixCode img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .pixCode p {
+    margin-top: 10px;
+  }
+  
+  .pixCode span {
+    font-weight: bold;
+  }
+  

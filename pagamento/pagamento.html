@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doação para Proteger Nossos Oceanos</title>
+  <link rel="stylesheet" href="pagamento.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Faça Sua Doação para Proteger Nossos Oceanos</h1>
+    <form action="process_payment.php" method="POST">
+      
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="cardNumber">Número do Cartão:</label>
+      <input type="text" id="cardNumber" name="cardNumber" required>
+      
+      <label for="expiryDate">Data de Validade:</label>
+      <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/AA" required>
+      
+      <label for="cvv">Código de Segurança (CVV):</label>
+      <input type="text" id="cvv" name="cvv" required>
+      
+      <label for="paymentMethod">Método de Pagamento:</label>
+      <select id="paymentMethod" name="paymentMethod" required>
+        <option value="creditCard">Cartão de Crédito</option>
+        <option value="pix">PIX</option>
+      </select>
+
+      <button type="submit" href="../agradecimento/agradecimento.html">Faça o Pagamento</button>
+    </form>
+
+    <div class="pixCode">
+      <h2>Instruções para Pagamento via PIX:</h2>
+      <p>Escaneie o código QR abaixo ou utilize a chave PIX fornecida para efetuar o pagamento.</p>
+      <img src="pix_code.jpg" alt="PIX Code">
+      <p>Chave PIX: <span>chave_pix_aqui</span></p>
+    </div>
+  </div>
+</body>
+</html>
