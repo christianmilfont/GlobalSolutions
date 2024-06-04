@@ -22,3 +22,24 @@ document.getElementById("cadastroForm").addEventListener("submit", function(even
       document.getElementById("toggleMenu").textContent = "Abrir Menu";
     }
   });
+
+
+
+function mostrarCampo() {
+  var tipo = document.getElementById("tipo").value;
+  var cpfInput = document.getElementById("cpfInput");
+  var cnpjInput = document.getElementById("cnpjInput");
+
+  if (tipo === "pessoa_fisica") {
+    cpfInput.style.display = "block";
+    cnpjInput.style.display = "none";
+  } else if (tipo === "pessoa_juridica") {
+    cpfInput.style.display = "none";
+    cnpjInput.style.display = "block";
+  }
+}
+
+
+
+
+  ///Neste código, adicionamos o atributo onchange="mostrarCampo()" ao elemento <select>, o que significa que a função mostrarCampo() será chamada sempre que o valor do elemento for alterado. A função mostrarCampo() então verifica o valor selecionado no <select> e exibe o campo relevante (CPF ou CNPJ) e oculta o outro, alterando o estilo de exibição (display:block ou display:none) de acordo.
