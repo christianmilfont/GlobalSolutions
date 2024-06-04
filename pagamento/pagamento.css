@@ -35,22 +35,27 @@ body {
   input[type="number"],
   input[type="password"],
   select {
-    width: 100%;
+    width: 50%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
   }
   
-  button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+  a {
+    background: #0297ce;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
   }
+  .blue {
+    font-size: 2em;
+    margin: 0;
+    color: #2fbcf0;
+}
   
   .pixCode {
     margin-top: 30px;

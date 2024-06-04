@@ -7,9 +7,9 @@ body {
     padding: 0;
  }
  .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
  }
  header {
     text-align: left;
@@ -67,7 +67,25 @@ body {
 .textobonito:hover{
    color: #0297ce;
 }
+.cadastro2{
+   
+   text-align: center;
+ }
+ .botao {
+   text-decoration: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   margin: 0 10px;
+   background-color: #0297ce;
+   color: #fff;
+}
 
+.botao:hover {
+   background-color: #0056b3;
+}
 #menu {
    display: none;
    position: absolute;
@@ -113,6 +131,7 @@ body {
    top: 0%;
    right: 3%;
 }
+
 @keyframes example {
    0% {background-color: rgb(252, 252, 252); right: 0%;  top: 20px;}
    50% {background-color: rgb(33, 47, 71); right: 70px; top: 20px;}
