@@ -12,7 +12,8 @@ body {
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background: rgb(3,0,50);
+    background: linear-gradient(0deg, rgb(124, 121, 163) 0%, rgb(223, 223, 226) 35%, rgba(255,255,255,1) 95%);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px #0297ce;

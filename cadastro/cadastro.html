@@ -11,6 +11,13 @@
   <h2>Cadastro</h2>
   <form id="cadastroForm">
     <div class="input-group">
+      <label for="tipo">Tipo:</label>
+      <select id="tipo" name="tipo" required>
+        <option value="pessoa_fisica">Pessoa Física</option>
+        <option value="pessoa_juridica">Pessoa Jurídica</option>
+      </select>
+    </div>
+    <div class="input-group">
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
     </div>
@@ -22,19 +29,46 @@
       <label for="senha">Senha:</label>
       <input type="password" id="senha" name="senha" required>
     </div>
+    <div class="input-group">
+      <label for="rua">Rua:</label>
+      <input type="text" id="rua" name="rua" required>
+    </div>
+    <div class="input-group">
+      <label for="bairro">Bairro:</label>
+      <input type="text" id="bairro" name="bairro" required>
+    </div>
+    <div class="input-group">
+      <label for="complemento">Complemento:</label>
+      <input type="text" id="complemento" name="complemento">
+    </div>
+    <div class="input-group">
+      <label for="numero">Número:</label>
+      <input type="text" id="numero" name="numero" required>
+    </div>
+    <div class="input-group">
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep" required>
+    </div>
+    <div class="input-group">
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade" required>
+    </div>
+    <div class="input-group">
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado" name="estado" required>
+    </div>
+    
     <button type="submit" class="btn" href="../escolha/escolha.html">Cadastrar</button>
   </form>
 </div>
 <img id="toggleMenu" src="../menu.png" alt="Imagem de menu"></img>
 <div>
     <nav id="menu">
-
         <ul>
             <li><a href="../index/index.html">Página Inicial</a></li>
             <li><a href="../sobre/missao.html">Sobre</a></li>
             <li><a href="../sobre/contato.html">Contato</a></li>
             <li><a href="../cadastro/cadastro.html">Cadastro</a></li>
-
           </ul>
     </nav>
 </div>

@@ -11,19 +11,19 @@ body {
   .container {
     background: rgb(3,0,50);
     background: linear-gradient(0deg, rgb(124, 121, 163) 0%, rgb(223, 223, 226) 35%, rgba(255,255,255,1) 95%);
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    box-shadow: 0px 0px 10px #0297ce;
+    width: 500px;
     max-width: 90%;
     text-align: center;
   }
   .container h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #333;
   }
   .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: left;
   }
   .input-group label {
@@ -32,8 +32,7 @@ body {
     color: #666;
   }
   .input-group input {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
