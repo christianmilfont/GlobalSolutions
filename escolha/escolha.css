@@ -28,7 +28,7 @@ h1 {
     margin-top: 20px;
 }
 
-a {
+.scanner {
     background: #0297ce;
     text-decoration: none;
     color: #ffffff;
@@ -39,7 +39,21 @@ a {
     transition: background-color 0.3s ease;
 }
 
-a:hover {
+.scanner:hover {
+    background-color: #0056b3;
+}
+.doacao {
+    background: #0297ce;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.doacao:hover {
     background-color: #0056b3;
 }
 
@@ -77,7 +91,6 @@ a:hover {
   #toggleMenu {
     border: none;
     cursor: pointer;
-    
   }
  
   
