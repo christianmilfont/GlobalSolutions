@@ -43,6 +43,27 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+  button:hover {
+    background-color: #0056b3;
+}
+  .voltar{
+    text-align: center;
+    color: #ffffff;
+    
+  }
+  .btn{
+    background: #0297ce;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+}
   .blue {
     font-size: 1em;
     margin: 0;

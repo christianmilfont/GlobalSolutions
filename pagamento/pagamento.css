@@ -51,6 +51,9 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+  a:hover {
+    background-color: #0056b3;
+}
   .blue {
     font-size: 2em;
     margin: 0;

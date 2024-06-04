@@ -90,8 +90,8 @@ body {
 
   
   img{
-    width: 4%; /* Defina a largura desejada */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 3%; 
+    height: auto;  
     position: absolute;
     top: 0%;
     right: 3%;
