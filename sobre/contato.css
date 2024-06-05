@@ -43,6 +43,23 @@ h1 {
     color: #0297ce;
   }
 
+  .chris{
+    width: 14%; 
+    height: auto; 
+    position: absolute;
+    top: 27%;
+    right: 40%;
+    border-radius: 10%;
+  }
+  .iago{
+    width: 11%; 
+    height: auto; 
+    position: absolute;
+    top: 43%;
+    right: 40%;
+    border-radius: 10%;
+
+  }
   #menu {
     display: none;
     position: absolute;
@@ -91,4 +108,31 @@ h1 {
     0% {background-color: rgb(252, 252, 252); right: 0%;  top: 20px;}
     50% {background-color: rgb(33, 47, 71); right: 70px; top: 20px;}
     100% {background-color: rgb(18, 0, 122); right: 0%; top: 20px;}
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+      max-width: 90%;
+  }
+  .chris,
+  .iago {
+      width: 20%;
+      right: 30%;
+  }
+}
+
+/* Media queries para telas ainda menores */
+
+@media only screen and (max-width: 480px) {
+  header {
+      padding: 3%;
+  }
+  .container {
+      max-width: 95%;
+  }
+  .chris,
+  .iago {
+      width: 30%;
+      right: 25%;
+  }
 }

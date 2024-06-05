@@ -69,3 +69,20 @@ body {
     margin: 0;
     color: #3375bb;
 }
+
+/* Media queries para telas menores */
+
+@media only screen and (max-width: 768px) {
+  .container {
+      max-width: 90%;
+      margin: 30px auto;
+  }
+}
+
+/* Media queries para telas ainda menores */
+
+@media only screen and (max-width: 480px) {
+  .container {
+      padding: 10px;
+  }
+}

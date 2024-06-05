@@ -52,7 +52,39 @@ p {
 
 
 
+/* Media queries para telas menores */
 
+@media only screen and (max-width: 768px) {
+    .blue {
+        font-size: 2em;
+    }
+    .life {
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    .p2 {
+        font-size: 1em;
+    }
+}
+
+/* Media queries para telas ainda menores */
+
+@media only screen and (max-width: 480px) {
+    .blue {
+        font-size: 1.5em;
+    }
+    .life {
+        font-size: 0.6em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .p2 {
+        font-size: 0.8em;
+    }
+}
 
 
 
