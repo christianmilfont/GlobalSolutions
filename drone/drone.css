@@ -13,7 +13,7 @@ body {
     font-size: 3em;
 }
 img {
-    width: 150px;
+    width: 450px;
 }
 .buttons {
     margin-top: 20px;
@@ -91,4 +91,47 @@ img {
     0% {background-color: rgb(252, 252, 252); right: 0%;  top: 20px;}
     50% {background-color: rgb(33, 47, 71); right: 70px; top: 20px;}
     100% {background-color: rgb(18, 0, 122); right: 0%; top: 20px;}
+}
+
+/* Estilos para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+  .nome {
+      font-size: 2em;
+  }
+  img {
+      width: 300px;
+  }
+}
+
+/* Estilos para telas menores que 576px */
+@media only screen and (max-width: 576px) {
+  .nome {
+      font-size: 1.5em;
+  }
+  img {
+      width: 200px;
+  }
+  .container {
+      max-width: 90%;
+  }
+}
+
+/* Estilos para telas menores que 480px */
+@media only screen and (max-width: 480px) {
+  .nome {
+      font-size: 1.2em;
+  }
+  img {
+      width: 150px;
+  }
+}
+
+/* Estilos para telas menores que 320px */
+@media only screen and (max-width: 320px) {
+  .nome {
+      font-size: 1em;
+  }
+  img {
+      width: 120px;
+  }
 }

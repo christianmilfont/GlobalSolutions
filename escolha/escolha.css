@@ -107,18 +107,30 @@ h1 {
     100% {background-color: rgb(18, 0, 122); right: 0%; top: 20px;}
 }
 
-/* Media queries para telas menores */
-
+/* Estilos para telas menores que 768px */
 @media only screen and (max-width: 768px) {
   .container {
-      max-width: 80%;
+      padding: 10px;
   }
 }
 
-/* Media queries para telas ainda menores */
+/* Estilos para telas menores que 576px */
+@media only screen and (max-width: 576px) {
+  .container {
+      padding: 5px;
+  }
+}
 
+/* Estilos para telas menores que 480px */
 @media only screen and (max-width: 480px) {
   .container {
-      max-width: 90%;
+      padding: 0;
+  }
+}
+
+/* Estilos para telas menores que 320px */
+@media only screen and (max-width: 320px) {
+  .container {
+      max-width: 100%;
   }
 }

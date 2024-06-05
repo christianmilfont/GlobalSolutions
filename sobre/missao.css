@@ -140,39 +140,70 @@ body {
 
 
 
-
-/* Media queries para telas menores */
-
+/* Estilos para telas menores que 768px */
 @media only screen and (max-width: 768px) {
    .container {
-       width: 80%;
+       width: 90%;
+       padding: 10px;
    }
    h1 {
        font-size: 1.5em;
    }
    .blue {
-       font-size: 2em;
+       font-size: 2.5em;
    }
-   .botao {
-       padding: 8px 16px;
-       font-size: 14px;
+   .life {
+       font-size: 0.8em;
    }
 }
 
-/* Media queries para telas ainda menores */
-
-@media only screen and (max-width: 480px) {
+/* Estilos para telas menores que 576px */
+@media only screen and (max-width: 576px) {
    .container {
-       width: 90%;
+       width: 95%;
+       padding: 5px;
    }
    h1 {
        font-size: 1.2em;
    }
    .blue {
+       font-size: 2em;
+   }
+   .life {
+       font-size: 0.7em;
+   }
+}
+
+/* Estilos para telas menores que 480px */
+@media only screen and (max-width: 480px) {
+   .container {
+       width: 100%;
+       padding: 0;
+   }
+   h1 {
+       font-size: 1em;
+   }
+   .blue {
        font-size: 1.5em;
    }
-   .botao {
-       padding: 6px 12px;
-       font-size: 12px;
+   .life {
+       font-size: 0.6em;
+   }
+}
+
+/* Estilos para telas menores que 320px */
+@media only screen and (max-width: 320px) {
+   .container {
+       width: 100%;
+       padding: 0;
+   }
+   h1 {
+       font-size: 0.8em;
+   }
+   .blue {
+       font-size: 1em;
+   }
+   .life {
+       font-size: 0.5em;
    }
 }

@@ -51,9 +51,7 @@ p {
 
 
 
-
-/* Media queries para telas menores */
-
+/* Estilos para telas menores que 768px */
 @media only screen and (max-width: 768px) {
     .blue {
         font-size: 2em;
@@ -64,25 +62,44 @@ p {
     p {
         font-size: 1.2em;
     }
-    .p2 {
+}
+
+/* Estilos para telas menores que 576px */
+@media only screen and (max-width: 576px) {
+    .blue {
+        font-size: 1.5em;
+    }
+    .life {
+        font-size: 0.7em;
+    }
+    p {
         font-size: 1em;
     }
 }
 
-/* Media queries para telas ainda menores */
-
+/* Estilos para telas menores que 480px */
 @media only screen and (max-width: 480px) {
     .blue {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .life {
         font-size: 0.6em;
     }
     p {
+        font-size: 0.8em;
+    }
+}
+
+/* Estilos para telas menores que 320px */
+@media only screen and (max-width: 320px) {
+    .blue {
         font-size: 1em;
     }
-    .p2 {
-        font-size: 0.8em;
+    .life {
+        font-size: 0.5em;
+    }
+    p {
+        font-size: 0.7em;
     }
 }
 

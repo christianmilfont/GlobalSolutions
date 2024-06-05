@@ -77,4 +77,54 @@ body {
   .pixCode span {
     font-weight: bold;
   }
-  
+
+  /* Estilos para telas menores que 768px */
+@media only screen and (max-width: 768px) {
+  .container {
+      max-width: 90%;
+      margin: 30px auto;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  select {
+      width: 90%;
+  }
+}
+
+/* Estilos para telas menores que 576px */
+@media only screen and (max-width: 576px) {
+  .container {
+      max-width: 95%;
+      margin: 20px auto;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  select {
+      width: 100%;
+  }
+}
+
+/* Estilos para telas menores que 480px */
+@media only screen and (max-width: 480px) {
+  .blue {
+      font-size: 1.5em;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  select {
+      padding: 3px;
+  }
+}
+
+/* Estilos para telas menores que 320px */
+@media only screen and (max-width: 320px) {
+  .blue {
+      font-size: 1.2em;
+  }
+}
