@@ -48,7 +48,7 @@ h1 {
     height: auto; 
     position: absolute;
     top: 20%;
-    right: 40%;
+    right: 45%;
     border-radius: 10%;
   }
   .iago{
@@ -56,9 +56,17 @@ h1 {
     height: auto; 
     position: absolute;
     top: 43%;
-    right: 40%;
+    right: 45%;
     border-radius: 10%;
 
+  }
+  .larissa{
+    width: 11%; 
+    height: auto; 
+    position: absolute;
+    top: 65%;
+    right: 45%;
+    border-radius: 10%;
   }
   #menu {
     display: none;
@@ -110,29 +118,31 @@ h1 {
     100% {background-color: rgb(18, 0, 122); right: 0%; top: 20px;}
 }
 
-@media only screen and (max-width: 768px) {
-  .container {
-      max-width: 90%;
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
   }
-  .chris,
-  .iago {
-      width: 20%;
-      right: 30%;
+  .container {
+    max-width: 90%;
+  }
+  /* Ajustes de imagens e mídia */
+  .chris, .iago, .larissa, img {
+    width: 30%;
+    top: auto;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
-/* Media queries para telas ainda menores */
-
-@media only screen and (max-width: 480px) {
-  header {
-      padding: 3%;
-  }
+/* Para tablets e dispositivos médios */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Ajustes de layout responsivo */
   .container {
-      max-width: 95%;
+    max-width: 70%;
   }
-  .chris,
-  .iago {
-      width: 30%;
-      right: 25%;
-  }
+}
+
+/* Para desktops e dispositivos grandes */
+@media only screen and (min-width: 1025px) {
 }
